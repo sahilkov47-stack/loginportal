@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:wght@900&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/736x/e4/c3/32/e4c3328076534fbd5702e165e58948c4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.container{
+    
+    width: 20vw;
+    height: 45vh;
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+    backdrop-filter: blur(15px);
+}
+.heading{
+     font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 30px 0;
+    color: white;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.user .userr{
+    background-color: transparent;
+    font-size: 20px;
+    width: 340px;
+    height: 50px;
+    border-radius: 26px;
+    padding-left: 15px;
+}
+.user{
+    
+    width: 340px;
+    height: 50px;
+}
+.userr::placeholder{
+    color: white;
+    padding-left: 0px;
+    font-size: 17px;
+    
+}
+
+.passy::placeholder{
+    color: white;
+     font-size: 17px;
+    
+}
+.pass .passy{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 340px;
+    height: 50px;
+    border-radius: 26px;
+    padding-left: 15px;
+    background-color: transparent;
+    color: white;
+}
+.check .rem{
+    color: white;
+    margin-top:20px ;
+}
+.forgot p {
+    color: white;
+     margin-top:20px ;
+    
+}
+.remove{
+    text-decoration: none;
+}
+.labl{
+    color: white;
+}
+.flexuse2{
+    display: flex;
+    justify-content: space-between;
+}
+.login2 .log{
+     width: 340px;
+    height: 50px;
+    border-radius: 26px;
+    padding-left: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.log:hover{
+    
+    font-weight: bold;
+}
+.login2{
+    display: flex;
+    justify-self: center;
+}
+.ending{
+    display: flex;
+    justify-content: center;
+}
+.regcolor{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.end{
+    color: white;
+}
+@media screen and (max-width: 2646) {
+
+    .container{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1514px) {
+    
+    body{
+     
+    }
+    .container{
+        width: 333px;
+    }
+}
+@media screen and (max-width: 460px){
+    .container{
+        width: 212px;
+        height: 274px;
+    }
+    .user .userr {
+        width:200px ;
+        height: 41px;
+        
+        display: flex;
+        justify-self: center;
+    }
+    .pass .passy{
+         width:200px ;
+        height: 41px;
+        
+        display: flex;
+        justify-self: center;
+    }
+    .forgot p{
+        font-size: 11px;
+    }
+    .labl{
+        font-size: 11px;
+    }
+    .check .rem{
+        
+        width: 10px;
+        height: 10px;
+    }
+    .login2 .log{
+        width: 200px;
+        height: 41px;
+        margin: 5px 0 0 0
+    }
+    .end{
+        font-size: 11px;
+    }
+}
